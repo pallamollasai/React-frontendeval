@@ -1,0 +1,16 @@
+.star-container {
+  display: flex;
+}
+
+.star-div {
+  border: 0.5px solid black;
+  width: 60px;
+  height: 60px;
+  color: red;
+  background: white;
+  cursor: pointer;
+}
+
+.star-checked {
+  background: tomato;
+}

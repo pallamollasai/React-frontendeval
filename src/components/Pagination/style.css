@@ -1,0 +1,27 @@
+.products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.product {
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.pagination-controls {
+  /* margin: 0 auto; */
+  text-align: center;
+}
+
+.pagination-controls span {
+  padding: 2px;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

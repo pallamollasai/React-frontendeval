@@ -1,0 +1,22 @@
+.accordion-container {
+  border: 1px solid black;
+  margin: 5px;
+}
+.accordion-section {
+  /* border: 1px solid black; */
+  cursor: pointer;
+  padding: 0;
+  margin: 5;
+}
+
+.accordion-content {
+  /* border: 1px solid black; */
+  /* height: 0;
+  max-height: 0px; */
+  /* transition: max-height 1s linear; */
+}
+
+.hide {
+  display: none;
+  /* max-height: 1000px; */
+}

@@ -1,0 +1,51 @@
+.container {
+  border: 1px solid black;
+  width: 50%;
+  height: 20%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 10px lightgrey;
+  padding: 2em;
+}
+
+.goto-back {
+  color: blue;
+}
+
+.goto-back .goto-back-link {
+  margin-left: 0.5em;
+  cursor: pointer;
+}
+
+.form-container {
+  padding-top: 2em;
+}
+
+.form-container label {
+  display: block;
+  padding-bottom: 0.3em;
+}
+
+.navigation {
+  /* margin-top: .5em; */
+  padding-top: 1em;
+}
+
+.navigation button {
+  padding: 0.5em;
+  cursor: pointer;
+  width: 5em;
+  background: transparent;
+  font-weight: bold;
+}
+
+.navigation button:hover:not(:disabled) {
+  background: rgb(106, 61, 230);
+  color: white;
+}
+
+.navigation button:disabled {
+  cursor: disabled;
+}

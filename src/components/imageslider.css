@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  /* border: 5px solid limegreen; */
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.image-container {
+  width: 60vw;
+  height: 60vh;
+  border: 1px solid blue;
+  position: relative;
+}
+
+.image-container > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left-arrow > span::before {
+  content: "<";
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.right-arrow > span::after {
+  content: ">";
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+.left-arrow {
+  left: 0%;
+}
+
+.right-arrow {
+  left: 98%;
+}

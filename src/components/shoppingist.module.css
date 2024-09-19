@@ -1,0 +1,37 @@
+.search-keyword-input-container {
+  /* margin-left: 2em;
+  margin-top: 2em; */
+  position: relative;
+}
+
+.search-keyword-input-container input {
+  width: 40vw;
+}
+
+.cross {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.shopping-list-container {
+  /* border: 1px solid black; */
+  width: 40vw;
+  position: absolute;
+  margin-top: 0.5em;
+  /* top: 20%;
+  left: 20%; */
+}
+
+.shopping-list-item {
+  /* margin: 0.5em; */
+  padding: 0.5em;
+}
+
+.shopping-list-item button {
+  margin-left: 0.5em;
+}
+
+.border {
+  border: 1px solid black;
+  box-shadow: yellow;
+}

@@ -1,0 +1,74 @@
+.modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* width: 80vw; */
+  /* height: 80vh; */
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+  padding: 20px;
+  background-color: white;
+  z-index: 999;
+}
+
+.modal-close-icon {
+  position: absolute;
+  top: 0%;
+  left: 95%;
+  display: block;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.add-person-form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.add-person-form-container div {
+  padding: 5px;
+}
+
+.hide {
+  display: none;
+}
+
+.persons-container {
+  display: flex;
+  /* width: 80vw; */
+  height: 100vh;
+  overflow: scroll;
+  margin: 10px;
+}
+
+.persons-container > div:not(:nth-last-child(1)) {
+  border-right: 1px solid black;
+  margin-right: 10px;
+}
+
+.person-container {
+  width: 20%;
+}
+
+.person-card span {
+  display: block;
+}
+
+.person-card {
+  border: 1px solid lightgray;
+  margin: 2%;
+  padding: 2%;
+  /* margin: 0 auto; */
+  box-shadow: -1px -1px 8px blanchedalmond;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.person-card-button button {
+  overflow: hidden;
+  width: 4em;
+  cursor: pointer;
+}

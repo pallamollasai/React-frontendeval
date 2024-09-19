@@ -1,0 +1,58 @@
+.faq-container {
+  width: 90%;
+}
+
+.faq {
+  display: flex;
+  border: 2px solid black;
+  margin: 20px;
+  /* transition: all 0.75s linear; */
+}
+
+.qa {
+  margin: 20px;
+  /* width: 80%; */
+}
+
+.question {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.answer {
+  color: grey;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.show {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+.arrow {
+  /* width: 20%; */
+  text-align: center;
+  /* margin: 20px; */
+  padding: 0;
+  margin: 20px;
+  height: 0;
+  width: 0;
+  /* text-align: center;
+  vertical-align: center; */
+}
+
+.arrow span {
+  /* position: absolute; */
+  display: inline-block;
+  transition: all 0.3s linear;
+}
+
+.arrow-span {
+  transform: rotate(90deg);
+}

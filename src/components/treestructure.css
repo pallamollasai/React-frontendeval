@@ -1,0 +1,41 @@
+.inline-block {
+  display: inline-block;
+}
+
+.caret {
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+}
+
+/* .margin-left {
+  position: relative;
+  left: 0.5em;
+} */
+
+.sub-tree-container {
+  position: relative;
+  left: 2em;
+}
+
+.caret-rotate {
+  transform: rotate(90deg);
+}
+
+.caret-hide ~ div {
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+.block {
+  display: block;
+}

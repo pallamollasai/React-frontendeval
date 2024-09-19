@@ -1,0 +1,39 @@
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+
+input {
+  width: 3rem;
+  text-align: center;
+  /* margin-left: 0.1rem; */
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 3rem;
+}
+
+.timer-container {
+  display: flex;
+}
+
+button {
+  padding: 0.1rem;
+  width: 5rem;
+  text-align: center;
+  border: 1px solid black;
+  background: white;
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}

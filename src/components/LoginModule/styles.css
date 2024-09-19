@@ -1,0 +1,24 @@
+.menu-list ul li {
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.link {
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homepage-container {
+    margin: 10px;
+}
+
+.course-description {
+    width: 50%;
+    border: 1px solid black;
+    margin-top: 2%;
+    padding: 10px;
+    box-shadow: 5px 5px aliceblue;
+}

@@ -1,0 +1,51 @@
+.container {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background: green;
+  margin: 0;
+  padding: 0;
+}
+
+.box:nth-child(1n) {
+  background: green;
+}
+
+.box:nth-child(2n) {
+  background: yellow;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+.flex-box {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}
+
+.flex-box:nth-child(1n) {
+  background: yellow;
+}
+
+.flex-box:nth-child(2n) {
+  background: green;
+}

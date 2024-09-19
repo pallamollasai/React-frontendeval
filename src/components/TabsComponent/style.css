@@ -1,0 +1,16 @@
+.tab-container {
+  display: flex;
+}
+.tab-container div:nth-child(1) {
+  margin-right: 1em;
+}
+
+.tab-container > div {
+  border: 1px solid black;
+  padding: 0.2em;
+}
+
+.tab-container > div:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
